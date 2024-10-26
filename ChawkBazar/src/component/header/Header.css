@@ -1,0 +1,23 @@
+.main-wrapper{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+    height: 80px;
+    background-color: bisque;
+    align-items: center;
+
+}
+.main-wrapper ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    gap: 20px;
+}
+.button-div{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}

@@ -1,0 +1,51 @@
+.main-carousel .slide {
+  margin-top: 90px;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+}
+
+.slide-1 {
+  background-image: url("https://chawkbazar.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fbanner%2Fslider%2Fbanner-1.jpg&w=1920&q=100");
+}
+
+.slide-2 {
+  background-image: url("https://chawkbazar.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fbanner%2Fslider%2Fbanner-2.jpg&w=1920&q=100");
+}
+
+.slide-3 {
+  background-image: url("https://chawkbazar.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fbanner%2Fslider%2Fbanner-1.jpg&w=1920&q=100");
+}
+
+.slide-4 {
+  background-image: url("https://chawkbazar.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fbanner%2Fslider%2Fbanner-2.jpg&w=1920&q=100");
+}
+.card-main-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+.card-wrapper {
+  width: 95%;
+  padding: 10px; /* Optional padding around container */
+  border: 3px solid rgb(117, 109, 109);
+  border-radius: 10px;
+}
+.card-img{
+  object-fit: cover;
+  width: 100px;
+  height: 200px;
+}
+.main-card-wrapper{
+  display: flex;
+  flex-wrap: wrap; /* Wrap cards to next line if there isn’t enough space */
+  justify-content: space-evenly; /* Center cards horizontally */
+}
+.card-wrapper h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
